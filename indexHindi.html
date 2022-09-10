@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sarus | Home</title>
+    
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="slider.css">
+    <style>
+        #this_page{
+            background-color: #006699;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+        <div class="head">
+            <div class="lag" id="top1"><a href="index.html">English</a> | <a href="#" style="color: white;"><b>हिन्दी</b></a></div>
+            <div class="social_media" id="top1">
+                <a href="" target = "blank" ><img id="social" src="img\Twitter (1).png"></a> 
+                <a href="" target = "blank" ><img id="social" src="img\Facebook.png"></a>
+                <a href="" target = "blank" ><img id="social" src="img\Google.png"></a>
+                <a href="" target = "blank" ><img src="img\LinkedIn.png"></a>
+            </div>
+        </div>
+        <div class="main_body">
+            <div>
+                <div class="top2"><img src="img\sarus_logo.jpg" width="120px"></div>
+                <div class="top2" id="top2-1"><a href="#"><h1>द सारस</h1></a></div>
+            </div>
+            <br><br><br>
+            <div class="nav">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">होम</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#about">About The Sarus</a>
+                      <a href="#contact">Contact Us</a>
+                    </div>
+                </div>
+
+                <!--<a href="#" id="this_page">Home</a>-->
+                <a href="AboutUs.html">हमारे बारे में</a>
+                <a href="#">संपर्क करें</a>
+                <a href="#">छात्र</a>
+                <a href="#">कर्मचारी</a>
+
+            </div>
+            <br><br>
+
+         <!--Slider-->
+        <center>
+            <div class="slideshow-container">
+        
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <image src="img\workbench.jpg">
+                </div>
+        
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <image src ="img\sound.jpg">
+                </div>
+        
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <image src="img\coffee.jpg">
+                </div>
+        
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+                <br>
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlides(1)"></span>
+                    <span class="dot" onclick="currentSlides(2)"></span>
+                    <span class="dot" onclick="currentSlides(3)"></span>
+        
+                </div>
+        
+            </div>
+        </center>
+
+           <div class="lowest"><b><a href="#">Read Archived Highlights</a></b></div>
+        </div>
+
+        <br><br>
+        <footer>
+            <div class="foot0">
+
+                <div class="foot0-1" id="foot0-1-1"> <h2>नीचे दिए गए सर्च बार से कुछ भी सर्च करें</h2>  </div>
+                <div class="foot0-2" id="foot0-1-1"> <form><input type="text" name="search"placeholder="खोज आइटम दर्ज करें"><button>खोज करें</button> </form></div>
+            </div>
+            <div class="foot1">
+              <center>
+                <div class="foot1-1">
+                    <center><h3>Quick Find</h3></center>
+                    <ul style="list-style-type:square">
+                        <li><span>Coffee</span></li>
+                        <li><span>Tea</span></li>
+                        <li><span>Milk</span></li>
+                      </ul>
+                </div>
+                <div class="foot1-1">
+                    <center><h3>Quick Find</h3></center>
+                    <ul style="list-style-type:square">
+                        <li><span>Coffee</span></li>
+                        <li><span>Tea</span></li>
+                        <li><span>Milk</span></li>
+                    </ul>
+                </div>
+                <div class="foot1-1">
+                    <center><h3>द सारस का अन्वेषण करें</h3></center>
+                    <ul style="list-style-type:square">
+                        <li><span>Coffee brown</span></li>
+                        <li><span>Tea</span></li>
+                        <li><span>Milk</span></li>
+                    </ul>
+                </div>
+                <div class="foot1-1">
+                    <center><h3>जल्दी खोजें</h3></center>
+                    <ul style="list-style-type:square">
+                        <li><span>Coffee</span></li>
+                        <li><span>Tea</span></li>
+                        <li><span>Milk</span></li>
+                    </ul>
+                </div>
+              </center>
+            </div>
+            <hr>
+            <div class="foot2">
+                <a>&copy; 2022 The Sarus . All rights reserved</a>
+                <div class="foot2-1">
+                    <a href="#" id="foot2-2">About</a>
+                    <a href="#" id="foot2-2">Feedback</a>
+                    <a href="#" id="foot2-2">RTI</a>
+                    <a href="#">Contact Us</a> 
+                </div>
+            </div>
+        </footer>
+
+        
+
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
+            
+        <script src="slider.js"></script>
+    
+</body>
+</html> 
