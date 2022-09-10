@@ -1,0 +1,141 @@
+        *{
+            margin: 0;
+        }
+        .head{
+            background-color: #444444;
+            padding: 0.5em;
+            padding-left: 16em;
+            padding-right: 16em;
+        }
+        .lag a{
+            text-decoration: none;
+            color: black;
+        }
+        .lag a:hover{
+            color: blue;
+        }
+        #top1{
+            display: inline-block;
+        }
+
+        .top2 img{
+            padding: 25px;
+        }
+        .social_media a img{
+            height: 20px;
+            padding: 1px;
+        }
+        .social_media{
+            float: right;
+        }
+        .main_body{
+            padding-left: 16em;
+            padding-right: 16em;
+        }
+        .nav a{
+            text-decoration: none;
+            padding: 16px;
+            color: rgb(109, 109, 109);
+        }
+        .nav a:hover{
+            color: white;
+            background-color: #444444;
+        }
+        
+        .top2{
+            display: inline-block;
+        }
+        #top2-1 a{
+            text-decoration: none;
+            color: #006699;
+        }
+        #top2-1 a h1{
+             top: 5%;
+        }
+        #social{
+            border-right: 1px black solid;
+        }
+
+        .lowest{
+            float: right;
+        }
+        .lowest a{ 
+           text-decoration: none;
+           color: #006699;
+        }
+        footer{
+            background-color: #444444;
+        }
+
+        .foot0{
+            margin-left: 16em;
+            margin-right: 16em;
+            background-color: #006699;
+        }
+        .foot0-1{
+            color: white;
+        }
+        
+        .foot0-2{
+            float: right;
+        }
+        .foot0-2 input{
+            padding: 0.5em;
+        }
+
+        .foot0-2 button{
+            padding: 0.62em;
+            background-color: #444444;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .foot0-2 input:focus{
+            outline: none !important;  /*remove blue hover on input*/
+        }
+
+        #foot0-1-1{
+            display: inline-block;
+            padding: 1em;
+        }
+
+        .foot1{
+            padding-left: 16em;
+            padding-right: 16em;
+        }
+
+        .foot2{
+            padding: 1em;
+            padding-left: 16em;
+            padding-right: 16em;
+        }
+        .foot1-1{
+            display: inline-block;
+            padding: 1.95em;/*4em*/
+        }
+        .foot1-1 h3{
+            color: white;
+        }
+        .foot1-1 li{
+            color: rgb(46, 43, 43);
+            padding: 0.3em;
+        }
+
+
+        .foot1-1 li span{
+            color: rgb(187, 185, 185);
+        }
+
+        .foot2-1{
+            float: right;
+        }
+        .foot2-1 a{
+           text-decoration: none;
+           padding: 0.5em;
+           color: white;
+        }
+        #foot2-2{
+            border-right: 1px white solid;
+        }
+
